@@ -1,7 +1,7 @@
 {
   "name": "constantie",
   "description": "A tiny JavaScript library for creation of immutable objects and arrays",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "directories": {
     "example": "examples"
