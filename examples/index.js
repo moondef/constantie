@@ -1,6 +1,6 @@
-const { createObject } = require("../");
+const Constantie = require("../");
 
-const obj = createObject({ a: 1, b: 2, c: 3 });
+const obj = Constantie({ a: 1, b: 2, c: 3 });
 
 console.log(obj);
 
@@ -14,3 +14,9 @@ console.log(obj);
 //   enumerable: true,
 //   configurable: true
 // });
+
+// // //
+
+const arr = Constantie([1, 2, 3]);
+console.log(arr);
+// arr.push(4);
