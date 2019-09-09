@@ -1,5 +1,5 @@
 # constantie
-## A tiny JavaScript library for creation of immutable objects and arrays
+## A tiny JavaScript library for creation of fully immutable objects and arrays
 
 ### API
 ```js
