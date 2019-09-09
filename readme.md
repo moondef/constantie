@@ -20,5 +20,12 @@ const arr = Constantie([1, 2, 3]);
 
 obj.d = 4; // Error! You can't change properties of this object
 
+Object.defineProperty(obj, "d", {
+  value: 4,
+  writable: true,
+  enumerable: true,
+  configurable: true
+}); // Error! You can't change properties of this object
+
 arr.push(4); // Error! You can't change elements of this array
 ```
