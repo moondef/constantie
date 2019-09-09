@@ -1,8 +1,29 @@
 {
+  "name": "constantie",
+  "description": "A tiny JavaScript library for creation of immutable objects and arrays",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
   "scripts": {
     "test": "nodemon ./examples/index.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^1.19.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moondef/constantie.git"
+  },
+  "keywords": [
+    "immutable",
+    "constant"
+  ],
+  "author": "moondef",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moondef/constantie/issues"
+  },
+  "homepage": "https://github.com/moondef/constantie#readme"
 }
