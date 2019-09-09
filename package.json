@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "nodemon ./examples/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
