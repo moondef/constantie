@@ -4,8 +4,8 @@ const Constantie = args => {
 
   const errorText =
     argsType === "array"
-      ? "You can't change elements of this array"
-      : "You can't change properties of this object";
+      ? "Error! You can't change elements of this array"
+      : "Error! You can't change properties of this object";
 
   const handler = {
     set: () => {
